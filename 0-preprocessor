@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CSFILE -o c
+cpp $CSFILE -o c
