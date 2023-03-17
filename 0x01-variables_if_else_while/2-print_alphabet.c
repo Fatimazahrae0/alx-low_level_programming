@@ -1,19 +1,20 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prints the alphabet.
  *
  * Return: Always 0 (Success)
  */
+int main(void)
+{
+	char c;
 
-int main() {
-    char letter = 'a';
-
-    /* loop through the alphabet from a to z*/
-    while (letter <= 'z') {
-        putchar(letter);
-        letter++;
-    }
-
-    putchar('\n');
-    return 0;
+	c = 'a';
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
+	return (0);
 }
+
