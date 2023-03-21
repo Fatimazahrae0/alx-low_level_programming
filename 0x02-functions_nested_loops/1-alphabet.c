@@ -1,13 +1,15 @@
 #include "main.h"
-/*alphabet print*/
 /**
- * print_alphabet in lowr case
+ * print_alphabet- Prints an integer to stdout
  *
- * Return
+ * c: The integer to be printed
+ *
+ * Return: void
  */
 
 void print_alphabet(void)
 {
+
 
 int c;
 
