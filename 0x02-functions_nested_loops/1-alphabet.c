@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print alphabet in lowr case
+ * print_alphabet in lowr case
  *
- * Return 
+ * Return
  */
 
 void print_alphabet(void)
