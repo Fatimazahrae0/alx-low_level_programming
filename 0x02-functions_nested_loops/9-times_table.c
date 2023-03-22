@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - Prints an integer to stdout
+ * times_table - Prints an integer to stdout
  *
  * @a @b @d: The integer to be printed
  *
