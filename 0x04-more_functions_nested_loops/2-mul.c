@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _mul - multible of two intrger
+ * mul - multible of two intrger
  *
  * @a: integer that will be printed
  * @b: integer that will be printed
