@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * swap - Prints an integer to stdout
+ * swap_int - Prints an integer to stdout
  *
- * @a, @b: The integer to be printed
- *
+ * @a: The integer to be printed
+ * @b: the integer to be printed
  * Return: void
  */
-void swap_int(int * a, int * b)
+void swap_int(int *a, int *b)
 {
 	int swap;
 
