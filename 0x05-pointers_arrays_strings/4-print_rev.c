@@ -2,7 +2,7 @@
 /**
  * print_rev - Prints an integer to stdout
  *
- * @str: The integer to be printed
+ * @s: The integer to be printed
  *
  * Return: void
  */
