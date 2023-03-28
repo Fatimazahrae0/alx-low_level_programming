@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * _isalpha - Prints an integer to stdout
+ * puts_half - Prints an integer to stdout
  *
- * @c: The integer to be printed
+ * @str: The integer to be printed
  *
  * Return: void
  */
 
 void puts_half(char *str)
-{ 
+{
 	int i;
 	int n;
 
