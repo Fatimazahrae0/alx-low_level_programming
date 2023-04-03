@@ -1,10 +1,11 @@
 #include "main.h"
 /**
-* _memset - fills the memory with constant byte
-* @s:the  memory area
-* @n:bytes of the memory to be pointed
-* @b:contant byte will be filled in the memory
-*/
+ * _memset - fills memory with a constant byte.
+ * @s: the buffer in the memory
+ * @b: the character to fill the n bytes of memory
+ * @n: the len of memory to be filled using _memset
+ * Return: (s).
+ */
 char *_memset(char *s, char b, unsigned int n)
 {
 unsigned int i;
