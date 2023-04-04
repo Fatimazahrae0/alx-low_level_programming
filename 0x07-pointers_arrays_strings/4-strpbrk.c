@@ -6,7 +6,7 @@
 * @accept:string
 * Return: ti s or null
 */
- char *_strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 int i, j;
 
@@ -21,6 +21,5 @@ return (&s[i]);
 }
 }
 return (NULL);
-
 }
 
