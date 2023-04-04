@@ -17,5 +17,4 @@ _putchar(a[x][y]);
 }
 _putchar('\n');
 }
-_putchar('\n');
 }
