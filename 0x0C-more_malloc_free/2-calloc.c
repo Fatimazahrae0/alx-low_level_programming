@@ -25,4 +25,5 @@ for (i = 0; i < nmemb * size; i++)
 str[i] = 0;
 }
 return (str);
+
 }
