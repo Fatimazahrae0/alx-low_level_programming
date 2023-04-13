@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _calloc - allocates memory for an array
+ * _calloc - allocates a memory for an array
  * @size:size of array
  * @nmemb:element of an array
  * Return:return NULL
@@ -25,5 +25,4 @@ for (i = 0; i < nmemb * size; i++)
 str[i] = 0;
 }
 return (str);
-
 }
