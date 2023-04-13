@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * string_nconcat - concatenates two strings
- * @s1:first string
- * @s2:second string
- * @n:size of string
- * Return:return NULL if the function fails
+* string_nconcat - concatenates two strings
+* @s1:first string
+* @s2:second string
+* @n:size of string
+* Return:return NULL if the function fails
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -20,12 +20,12 @@ if (s2 == NULL)
 s2 = "";
 }
 while (s1[len1] != '\0')
- {
+{
 len1++;
 }
 while (s2[len2] != '\0')
 {
-len2++;    
+len2++;
 }
 if (n >= len2)
 {
