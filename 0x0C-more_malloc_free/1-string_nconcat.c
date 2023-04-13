@@ -38,11 +38,11 @@ return (NULL);
 }
 for (i = 0; i < len1; i++)
 {
-    concas[i] = s1[i];
+concas[i] = s1[i];
 }
 for (j = 0; j < n; i++, j++)
 {
-    concas[i] = s2[j];
+concas[i] = s2[j];
 }
 concas[i] = '\0';
 return (concas);
