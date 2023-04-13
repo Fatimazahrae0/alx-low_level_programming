@@ -31,7 +31,7 @@ if (n >= len2)
 {
 n = len2;
 }
-concas = malloc((len1 + n + 1) * sizeof(char))
+concas = malloc((len1 + n + 1) * sizeof(char));
 if (concas == NULL)
 {
 return (NULL);
