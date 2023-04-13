@@ -21,7 +21,8 @@ return (NULL);
 }
 for (i = 0; i <= max - min; i++)
 {
-    str[i] = min + i;
+str[i] = min + i;
 }
 return (str);
+
 }
