@@ -20,7 +20,7 @@ dog = malloc(sizeof(dog_t));
 if (dog == NULL)
 return (NULL);
 for (n = 0; name[n]; n++)
-
+;
 n++;
 dog->name = malloc(n * sizeof(char));
 if (dog->name == NULL)
@@ -32,7 +32,7 @@ for (i = 0; i < n; i++)
 dog->name[i] = name[i];
 dog->age = age;
 for (l = 0; owner[l]; l++)
-
+;
 l++;
 dog->owner = malloc(l * sizeof(char));
 if (dog->owner == NULL)
