@@ -22,7 +22,7 @@ return (NULL);
 for (n = 0; name[n]; n++)
 ;
 n++;
-dog->name = malloc(n * sizeof(char));
+dog->name = malloc(n *sizeof(char));
 if (dog->name == NULL)
 {
 free(dog);
@@ -34,7 +34,7 @@ dog->age = age;
 for (l = 0; owner[l]; l++)
 ;
 l++;
-dog->owner = malloc(l * sizeof(char));
+dog->owner = malloc(l *sizeof(char));
 if (dog->owner == NULL)
 {
 free(dog->name);
