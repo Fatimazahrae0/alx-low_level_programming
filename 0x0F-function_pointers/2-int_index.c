@@ -14,7 +14,7 @@ int i;
 
 if (cmp == NULL || array == NULL)
 {
-return;
+return (-1);
 }
 
 if (size <= 0)
