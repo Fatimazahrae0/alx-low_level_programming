@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "dog.h": "c"
+        "dog.h": "c",
+        "function_pointers.h": "c"
     }
 }
