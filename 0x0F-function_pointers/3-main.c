@@ -3,37 +3,46 @@
 #include <stdlib.h>
 
 /**
- * main - checking the code with main
- * @argc: the number of arguments
- * @argv: the value of the arguments
- * Return: Always 0
+ * main - program that perfroms simple operations
+ * @ac: number of arguments
+ * @av: array of arguments
+ *
+ * Return: Always 0 (Success)
  */
-int main(int argc, char **argv)
+int main(int ac, char *av[])
 {
-int (*op_func)(int, int), a, b;
+int ar1, ar2, result;
+char op;
+int (*func)(int, int);
 
-if (argc != 4)
+if (ac != 4)
 {
 printf("Error\n");
-exit(89);
+exit(98);
 }
 
-a = atoi(argv[1]);
-b = atoi(argv[3]);
+ar1 = atoi(av[1]);
+ar2 = atoi(av[3]);
 
-op_func = get_op_func(argv[2]);
-if (op_func == NULL)
+func = get_op_func(av[2]);
+
+if (!func)
 {
 printf("Error\n");
 exit(99);
 }
 
-if (b == 0 && (argv[2][0] == '/' || argv[2][0] == '%'))
+op = *av[2];
+
+if ((op == '/' || op == '%') && ar2 == 0)
 {
 printf("Error\n");
 exit(100);
 }
 
-printf("%d\n", op_func(a, b));
+result = func(ar1, ar2);
+
+printf("%d\n", result);
+
 return (0);
 }
