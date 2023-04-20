@@ -1,6 +1,12 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
+/**
+ * print_strings - print a string
+ * @separator:the string will be print
+ * @n:the numb of parameter or the character
+ * Return:return void
+*/
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
