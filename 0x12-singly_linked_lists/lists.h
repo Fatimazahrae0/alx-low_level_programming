@@ -5,6 +5,10 @@
 #include <stdarg.h>
 #include <string.h>
 /*struct functions*/
+
+int _strlen(char *s);
+
+
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
@@ -23,8 +27,7 @@ struct list_s *next;
 /*prototype functions*/
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
-int _strlen(char *s);
 list_t *add_node(list_t **head, const char *str);
-
+list_t *add_node_end(list_t **head, const char *str);
 
 #endif
