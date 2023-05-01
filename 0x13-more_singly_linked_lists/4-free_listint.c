@@ -10,7 +10,6 @@ listint_t *tmp;
 
 while (head != NULL)
 {
-    
 tmp = head;
 head = head->next;
 free(tmp);
