@@ -2,7 +2,7 @@
 /**
  * add_nodeint - add a new node in the head of linked list
  * @head:head of the linked list
- * @n:the value tobe inserted 
+ * @n:the value tobe inserted
  * Return: return to null if the element or the adrees doesnt exist
 */
 listint_t *add_nodeint(listint_t **head, const int n)
