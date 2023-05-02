@@ -45,5 +45,4 @@ dnode = tmp->next;
 tmp->next = (tmp->next)->next;
 free(dnode);
 return (1);
-
 }
