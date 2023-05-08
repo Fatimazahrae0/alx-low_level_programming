@@ -12,7 +12,7 @@ int f, i;
 if (filename == NULL)
 return (-1);
 f = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
-if(f == -1)
+if (f == -1)
 return (-1);
 if (text_content != NULL)
 {
