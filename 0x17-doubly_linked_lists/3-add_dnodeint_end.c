@@ -12,12 +12,12 @@ if (newnode == NULL)
 {
 return (NULL);
 }
-newNode->n = n;
-newNode->prev = NULL;
-newNode->next = NULL;
+newnode->n = n;
+newnode->prev = NULL;
+newnode->next = NULL;
 if (*head == NULL)
 {
-(*head) = newNode;
+(*head) = newnode;
 }
 else
 {
@@ -26,8 +26,8 @@ while (temp->next != NULL)
 {
 temp = temp->next;
 }
-temp->next = newNode;
-newNode->prev = temp;
+temp->next = newnode;
+newnode->prev = temp;
 }
-return (newNode);
+return (newnode);
 }
