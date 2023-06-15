@@ -2,7 +2,8 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "dog.h": "c",
-        "function_pointers.h": "c"
+        "function_pointers.h": "c",
+        "stdlib.h": "c"
     },
     "discord.removeRemoteRepository": true,
     "discord.suppressNotifications": true,
