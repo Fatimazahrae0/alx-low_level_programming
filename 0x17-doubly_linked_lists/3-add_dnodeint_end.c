@@ -3,7 +3,7 @@
  * add_dnodeint_end - add a new node in the end of the list
  * @head: head of the list
  * @n:member of the new node
- * Return:return NULL if it fails 
+ * Return:return NULL if it fails
 */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
@@ -19,7 +19,7 @@ if (*head == NULL)
 {
 (*head) = newNode;
 }
-else 
+else
 {
 dlistint_t *temp = *head;
 while (temp->next != NULL)
