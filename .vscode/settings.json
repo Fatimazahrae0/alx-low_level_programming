@@ -3,7 +3,8 @@
     "files.associations": {
         "dog.h": "c",
         "function_pointers.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "lists.h": "c"
     },
     "discord.removeRemoteRepository": true,
     "discord.suppressNotifications": true,
