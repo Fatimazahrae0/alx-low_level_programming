@@ -3,5 +3,8 @@
     "files.associations": {
         "dog.h": "c",
         "function_pointers.h": "c"
-    }
+    },
+    "discord.removeRemoteRepository": true,
+    "discord.suppressNotifications": true,
+    "discord.lowerDetailsEditing": "Workspace: {Ubuntu/Fedora Workstation}"
 }
