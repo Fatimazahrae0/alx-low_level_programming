@@ -2,6 +2,7 @@
 /**
  * add_dnodeint - add a new node
  * @head: head of the list
+ * @n:member of the newnode
  * Return: return the newnode
 */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
