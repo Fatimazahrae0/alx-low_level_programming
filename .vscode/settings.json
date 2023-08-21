@@ -4,7 +4,8 @@
         "dog.h": "c",
         "function_pointers.h": "c",
         "stdlib.h": "c",
-        "lists.h": "c"
+        "lists.h": "c",
+        "unistd.h": "c"
     },
     "discord.removeRemoteRepository": true,
     "discord.suppressNotifications": true,
