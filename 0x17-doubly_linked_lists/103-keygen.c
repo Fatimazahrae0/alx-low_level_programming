@@ -7,5 +7,5 @@
  */
 void main(void)
 {
-	print("test");
+print("test");
 }
